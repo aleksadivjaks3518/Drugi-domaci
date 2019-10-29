@@ -1,0 +1,99 @@
+*
+{
+    box-sizing: border-box;
+    
+}
+
+body{
+    background: url("../images/pozadina.jpg");
+
+}
+
+.container
+{
+    width: 80%;
+    margin:0 auto;
+}
+.header
+{
+    padding: 10px;
+}
+.header img
+{
+    width: 150px;
+    height: 150px;
+}
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul li 
+{
+    float: left;
+    width: 20%;
+    text-align: center;
+    height: 40px;
+    font-size: 35px;
+    background-color: black;
+}
+
+ul li a
+{
+    display: block;
+    text-decoration: none;
+}
+ul li a:hover
+{
+    background-color: white;
+}
+
+.centralniSadrzaj
+{
+    padding: 20px;
+    margin-top: 30px;
+    background-color: grey;
+}
+
+.leviSidebar
+{
+    vertical-align: top;
+    width:15%;
+    display: inline-block;
+}
+.desniSidebar
+{
+    vertical-align: top;
+    display: inline-block;
+    width: 15%;
+}
+.centralniDeo
+{
+    width: 65%;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.centralniDeo .vest
+{
+    width: 45%;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+    
+}
+.centralniDeo img
+{
+    width: 100%;
+}
+.footer
+{
+    text-align: center;
+    height: 120px;
+    font-size: 20px;
+    background-color:#2A2A2A;
+}
+
